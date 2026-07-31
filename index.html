@@ -1,81 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SK ELECTRICAL AND SOLAR SOLUTION</title>
 
 <style>
-body{
+*{
 margin:0;
-font-family:Arial;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
-nav{
-background:#ff8800;
-padding:15px;
-text-align:center;
+body{
+background:#f8f8f8;
+}
+
+header{
+background:#ff7a00;
+color:white;
+padding:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin:20px;
-font-size:20px;
+margin:12px;
 font-weight:bold;
 }
 
 .hero{
-padding:70px;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1400");
+background-size:cover;
+background-position:center;
+height:500px;
+display:flex;
+justify-content:center;
+align-items:center;
 text-align:center;
-background:#fff3e0;
+color:white;
+padding:20px;
 }
 
 .hero h1{
-color:#ff8800;
-font-size:50px;
+font-size:48px;
+margin-bottom:15px;
 }
 
-button{
-background:#ff8800;
-color:white;
+.hero p{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.btn{
+background:#ff7a00;
 padding:15px 30px;
-border:none;
 border-radius:8px;
-font-size:20px;
-cursor:pointer;
+color:white;
+text-decoration:none;
+font-size:18px;
+display:inline-block;
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:white;
+width:280px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+.card h3{
+color:#ff7a00;
+margin-bottom:10px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.call{
+position:fixed;
+bottom:85px;
+right:20px;
+background:#ff7a00;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
 }
 </style>
-
 </head>
 
 <body>
 
+<header>
+
+<div class="logo">
+☀ SK ELECTRICAL AND SOLAR SOLUTION
+</div>
+
 <nav>
-
 <a href="#">Home</a>
-
 <a href="#">About</a>
-
 <a href="#">Products</a>
-
 <a href="#">Contact</a>
-
 </nav>
+
+</header>
 
 <div class="hero">
 
-<h1>SK ELECTRICAL AND SOLAR SOLUTION</h1>
+<div>
 
-<h2>Solar Installation | PM Surya Ghar | Electrical Work</h2>
+<h1>Solar Energy For Every Home</h1>
 
-<br>
+<p>PM Surya Ghar | Solar Installation | Electrical Services</p>
 
-<a href="https://wa.me/917068793003">
-<button>Contact on WhatsApp</button>
+<a class="btn" href="https://wa.me/917068793003">
+Contact on WhatsApp
 </a>
 
 </div>
+
+</div>
+
+<section>
+
+<h2 style="color:#ff7a00;font-size:36px;">Our Services</h2>
+
+<br><br>
+
+<div class="cards">
+
+<div class="card">
+<h3>1kW Solar</h3>
+<p>घर के लिए किफायती सोलर सिस्टम</p>
+</div>
+
+<div class="card">
+<h3>2kW Solar</h3>
+<p>छोटे परिवार के लिए उपयुक्त</p>
+</div>
+
+<div class="card">
+<h3>3kW Solar</h3>
+<p>सब्सिडी के साथ इंस्टॉलेशन</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>SK ELECTRICAL AND SOLAR SOLUTION</h2>
+
+<p>Phone : 7068793003</p>
+
+<p>Serving All Uttar Pradesh</p>
+
+</footer>
+
+<a class="call" href="tel:7068793003">
+📞 Call
+</a>
+
+<a class="whatsapp" href="https://wa.me/917068793003">
+💬 WhatsApp
+</a>
 
 </body>
 </html>
